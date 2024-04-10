@@ -1,0 +1,212 @@
+*{
+    padding: 0px ; 
+    margin: 0px; 
+}
+
+ul{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    padding: 0px 40px;
+    display: flex ;
+}
+
+.flex img{
+    font-size: 20px;
+}
+.flex .sreach{
+    display: flex;
+    position: relative;
+}
+.flex .sreach i{
+    color: white;
+    background-color: black;
+    padding: 7px;
+
+}
+.flex .sreach input{
+    padding: 7px;
+    width: 250px;
+}
+.flex .sreach select{
+    width: 100px;
+    position: absolute;
+    right: 30px;
+    top: 2px;
+    padding: 6px;
+    border: none;
+}
+.flex .sreach select option{
+    border-left: black solid;
+}
+
+.flex .summary{
+    background-color: #FF3399;
+    color: white ;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+
+.menu_lv1{
+    background-color: black;
+}
+
+.menu_lv1 .item_lv1{
+    padding: 10px;
+    position: relative;
+}
+.menu_lv1 .item_lv1 a{
+    color : white;
+    text-decoration: none;
+}
+.menu_lv1 .menu_lv2{
+    position: absolute;
+    background-color:white;
+    top: 40px;
+    display: none;
+    left: 0px;
+}
+.menu_lv1 .menu_lv2 .item_lv2{
+   color: black;
+   width: 100px;
+   padding: 7px 0px;
+}
+.menu_lv1 .menu_lv2 .item_lv2:hover{
+    background-color: #FF3399;
+}
+.menu_lv1 .item_lv1:hover{
+    background-color: #FF3399;
+}
+.menu_lv1 .item_lv1:nth-child(3):hover .menu_lv2{
+    display: block;
+}
+
+
+/* content  */
+content .inner-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px;
+
+}
+content .inner-top img{
+    width: 70px;
+}
+content .inner-top select{
+    width: 250px;
+    padding: 7px;
+
+}
+
+content .inner-top .multi-button{
+    display: flex;
+}
+
+content .trai{
+    display: flex;
+}
+
+content .trai .icon{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+content .trai .icon i{
+    font-size: 30px;
+}
+
+content .inner-top .multi-button div{
+    width: 30px;
+    height: 30px;
+    border: 1px solid gainsboro;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+content .inner-top .multi-button div:hover{
+    background-color: black;
+    color: white;
+}
+
+.inner-bottom .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inner-bottom .container .box{
+    width: 200px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+}
+
+.inner-bottom .container .box img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.inner-bottom .container .decrible{
+    background-color: #003366;
+    width: 100%;
+}
+.inner-bottom .container .decrible:hover .name{
+    color: #FFFF66;
+    text-align: center;
+
+}
+
+.inner-bottom .container .decrible .name{
+    color : white; 
+    text-align: center;
+
+}
+
+.inner-bottom .container .decrible .rate{
+    color: orange;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.inner-bottom .container .decrible .price{
+    text-align: center;
+
+}
+
+.inner-bottom .container .decrible .price span:first-child{
+    color: white;
+}
+
+.inner-bottom .container .decrible .price del{
+    color: red;
+}
+
+.container .box .item{
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    background-color: #eca63a;
+    color: white;
+}
+
+.container .box .item_2{
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    background: green;
+    color: white;
+}
+
+.container .box:hover{
+    width: 250px;
+    
+}
